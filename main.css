@@ -6,3 +6,23 @@
   opacity: 1;
   transition: opacity 1s;
 }
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* https://cssgradient.io/ */
+
+header {
+  padding: 5% 0 3% 0;
+  margin: 0 0%;
+  border-bottom: 2px solid white;
+}
+
+main {
+  padding: 3% 0 0 0;
+}
