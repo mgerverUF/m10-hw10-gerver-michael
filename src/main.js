@@ -9,8 +9,13 @@ var tempList = () => {
 tempList([212, 32, 73]);
 
 // setTimeout 
-setTimeout( function() { document.getElementById('good-temp').setAttribute('class','show')
+setTimeout( function() { 
+    document.getElementById('good-temp').classList.add('show');
+    document.getElementById('good-temp').classList.remove('hide');
     }, 3000);
+
+//setTimeout( function() { document.getElementById('good-temp').setAttribute('class','show')
+//    }, 3000);
 
 
 // https://www.linkedin.com/learning/learning-functional-programming-with-javascript/simple-callbacks?u=41282748
