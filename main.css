@@ -11,6 +11,7 @@ header, nav, aside, article, footer, section, main, figure, figcaption {
   opacity: 0;
 }
 .show {
+  font-size: 2rem;
   opacity: 1;
   transition: opacity 1s;
 }
