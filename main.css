@@ -1,3 +1,11 @@
+header, nav, aside, article, footer, section, main, figure, figcaption {
+	display:block;
+}
+* {
+ 	margin:0;
+	border:0;
+	padding:0;
+}
 
 .hide {
   opacity: 0;
@@ -18,9 +26,17 @@ body {
 /* https://cssgradient.io/ */
 
 header {
-  padding: 5% 0 3% 0;
-  margin: 0 0%;
+  padding: 5% 5% 3% 5%;
   border-bottom: 2px solid white;
+  font-size: .8rem;
+}
+
+section {
+  padding: 0 0 5% 0;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 main {
